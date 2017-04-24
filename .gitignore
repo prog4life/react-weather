@@ -1,0 +1,8 @@
+# Dependency directories
+node_modules/
+bower_components/
+
+# Individual files
+public/bundle.js
+.eslintrc.json
+.eslintignore
