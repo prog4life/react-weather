@@ -13,9 +13,11 @@ app.use(function (req, res, next) {
 
 app.use(express.static('public'));
 
-const IP = process.env.IP || 'localhost';
+// const IP = process.env.IP || 'localhost';
 const PORT = process.env.PORT || 3000;
 
-app.listen(PORT, IP, () => {
-  console.log('Server is up on: ', IP, ':', PORT);
+// app.listen(PORT, IP, () => {
+app.listen(PORT, () => {
+  // console.log('Server is up on: ', IP, ':', PORT);
+  console.log('Server is up on port: ', PORT);
 });
