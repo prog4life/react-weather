@@ -1,1 +1,1 @@
-React Weather Application
+React Weather Application from "Complete React" course
