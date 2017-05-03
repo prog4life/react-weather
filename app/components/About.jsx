@@ -17,8 +17,8 @@ var About = (props) => {
             JavaScript framework used.
         </li>
         <li>
-          <a href="http://openweathermap.org">Open Weather Map</a> - This was
-            used to search for weather data by city name
+          <a href="http://openweathermap.org">Open Weather Map</a> - This
+            service's API was used to search for weather data by city name
         </li>
       </ul>
     </div>
