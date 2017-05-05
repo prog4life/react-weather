@@ -20,7 +20,9 @@ module.exports = {
         return res.data.main.temp;
       }
     }, function (res) {
-      throw new Error(res.data.message);
+      // there is a mistake with return values handling in course original code
+      // "res.data" is undefined, so "res.response.data" is used instead:
+      throw new Error(res.response.data.message);
     });
   }
 };
