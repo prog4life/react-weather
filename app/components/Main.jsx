@@ -10,9 +10,6 @@ var Main = (props) => {
           {props.children}
         </div>
       </div>
-      <div className="row">
-        <div className=""></div>
-      </div>
     </div>
   );
 };
